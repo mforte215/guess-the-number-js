@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Guess The Number</title>
+    <script src="./guess-the-number.js"></script>
+    <link rel="stylesheet" href="./guess.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <div class="score-container">
+            <p class="score-display-class" id="score-display"></p>
+        </div>
+        <div class="guess-input-container">
+            <input onkeyup="checkNum()" id="guess-num" class="guess-input" type="text" />
+            <input onclick="processGuess()" disabled="true" id="guess-btn" class="guess-button" type="button"
+                value="GUESS">
+            <p id="message-display"></p>
+            <p id="num-guesses"></p>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

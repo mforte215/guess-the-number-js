@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+.game-container {
+    height: 100vh;
+    background-color: white;
+}
+
+.score-display-class {
+    font-size: 5em;
+    width: 90%;
+    margin: 0 auto 0 auto;
+    padding-top: 75px;
+    text-align: center;
+}
+
+.guess-input-container {
+    width: 40%;
+    margin: 4em auto 0 auto;
+    text-align: center;
+}
+
+.guess-input { 
+    font-size: 7em;
+    width: 33%;
+    padding: 40px;
+    margin-right: 25px;
+}
+
+
+.guess-button {
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    -webkit-box-shadow: 1px 5px 15px -2px rgba(0,0,0,0.5); 
+    box-shadow: 1px 5px 15px -2px rgba(0,0,0,0.5);
+    font-size: 4em;
+}
+
+.guess-button:disabled {
+    color: gray;
+    background-color: rgb(209, 209, 209);
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#message-display {
+    font-size: 3em;
+}
+
+#num-guesses {
+    font-size: 2em;
+}
